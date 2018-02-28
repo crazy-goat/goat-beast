@@ -30,3 +30,16 @@
 *.exe
 *.out
 *.app
+.idea/
+*.cbp
+
+CMakeCache.txt
+CMakeFiles
+Makefile
+build
+cmake-build-debug
+goat_zero
+
+vendor/boost.tar.gz
+vendor/boost
+cmake_install.cmake

@@ -114,7 +114,7 @@ private:
         response->content_length(error.size());
         response->set(http::field::server, "Beast");
         response->set(http::field::content_type, "text/plain");
-        response->body() = error
+        response->body() = error;
         response->prepare_payload();
 
         stringSerializer.emplace(*response);
